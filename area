@@ -1,10 +1,9 @@
 #include <stdio.h>
 void main()
 {
-   float b, h, a, ot;
+   float b, h,ot;
     printf("enter base and height");
     scanf("%f %f", &b ,&h);
-    ot= (b*h);
-    a=ot/2;
-    printf("the area of triangle is :%f",a);
+    ot= (b*h)/2;
+    printf("the area of triangle is :%f",ot);
 }
