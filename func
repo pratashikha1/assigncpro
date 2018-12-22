@@ -1,19 +1,18 @@
 #include <stdio.h>
-float area(int a , int b);
+float area(float a , float b);
 int main()
 {
-   int b, h ;
+   float b, h ;
    float result;
     printf("enter base and height");
-    scanf("%d %d", &b ,&h);
+    scanf("%f %f", &b ,&h);
     result = area(b , h);
     printf("the area of triangle is :%f",result);
 }
-float area(int a , int b)
+float area(float a , float b)
 {
-float op , area ;
-   op= a*b;
-   area=op/2 ;
+float  area ;
+   area=(a*b)/2 ;
    return area;
 }
 
