@@ -1,0 +1,22 @@
+#include <stdio.h>
+float area(float b ,float h);
+int main()
+{
+    struct triangle
+    {
+        float b;
+        float h;
+    };
+    struct triangle t1;
+    printf("enter base and height");
+    scanf("%f %f",&t1.b , &t1.h);
+    float output;
+    output= area(b,h);
+    printf("the area of the triangle is :%f",output);
+}
+float area(float b ,float h)
+{
+    float area;
+    area=(h*b)/2;
+    return area;
+}
